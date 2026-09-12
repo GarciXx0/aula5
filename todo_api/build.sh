@@ -1,5 +1,7 @@
 set -o errexit
 
+cd todo_api 
+
 pip install -r requirements.txt
 
 python manage.py collectstatic --no-input
